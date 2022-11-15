@@ -1,0 +1,1498 @@
+/* navbar part start here  */
+.nav-sidebar .menu-is-opening>.nav-link .r_icon{
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    position: absolute;
+    bottom: 15px;
+}
+.nav-sidebar .menu-is-opening>.nav-link .l_icon{
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    top: 0px;
+    left: 21%;
+    position: absolute;
+}
+.nav_dot {
+    width: 100%;
+}
+.nav_icn{
+    
+position: relative;
+    
+height: 40px;
+    
+width: 5px;
+    
+margin: 0px 7px;
+    
+color: #151719;
+}
+.l_icon{
+    position: absolute;
+    left: 7px;
+}
+.menu{
+    
+    color: #151719;
+        
+    font-family: var(--small-text-font,"Jost"),serif;
+        
+    font-size: 20px;
+        
+    font-weight: 300;
+        
+    text-align: center;
+        
+    line-height: normal;
+        
+    letter-spacing: 1px;
+}
+.navbar-nav .nav-link.active{
+    color: #151719;
+    font-family: var(--small-text-font,"Jost"),serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    line-height: normal;
+    letter-spacing: 1px;
+    font-size: 30px;
+    margin-right: 20px;
+}
+.btn_book{
+    outline: none;
+    cursor: pointer;
+    justify-content: center;
+    background-color: #151719;
+    transition: background-color .3s ease-in-out;
+    font-family: var(--small-text-font,"Jost"),serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    line-height: normal;
+    letter-spacing: 2px;
+    color: #fff;
+    height: 40px;
+    width: 85px;
+    margin-right: 20px;
+}
+.btn_book:hover{
+    color: #ffffff;
+}
+.r_icon{
+
+position: absolute;
+
+bottom: 15px;
+}
+.nav_dot{
+    width: 75%;
+    padding: 40px;
+    top: 100%;
+    right: 0%;
+}
+.nav_dot li{
+
+}
+.nav_dot li a{
+
+font-family: var(--headings-font,"Outfit"),serif;
+
+font-weight: 300;
+
+color: var(--text-color,#555);
+
+letter-spacing: 1px;
+
+text-decoration: underline;
+
+-webkit-text-decoration-color: transparent;
+
+text-decoration-color: transparent;
+
+text-underline-offset: 5px;
+
+-webkit-transition: color .3s ease,-webkit-text-decoration-color .3s ease;
+
+transition: color .3s ease,-webkit-text-decoration-color .3s ease;
+
+transition: color .3s ease,text-decoration-color .3s ease;
+
+transition: color .3s ease,text-decoration-color .3s ease,-webkit-text-decoration-color .3s ease;
+
+font-size: 20px;
+
+text-transform: capitalize;
+}
+.nav_dot li  ul{
+
+text-decoration: none;
+
+list-style: none;
+
+border: 1px solid #000;
+
+padding: 0px;
+
+margin-left: 60px;
+}
+.nav_dot li  ul li{
+
+}
+.nav_dot li  ul li a{
+
+}
+.nav_img{
+    
+}
+.dropdown-menu[data-bs-popper] {
+    left: 30%;
+    top: 10%;
+
+}
+/* navbar part end here  */
+
+
+
+
+/* bannar part start where  */
+.bannar{
+    height: 90vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+.bannar video{
+    width: 100%;
+}
+.bannar h1{
+    position: absolute;
+    z-index: 99;
+    bottom: 5%;
+    left: 10%;
+    max-width: 1000px;
+    font-family: var(--headings-font,"Outfit"),serif;
+    font-size: 4.375rem;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: #fff;
+    text-shadow: 0 0 20px rgb(0 0 0 / 30%);
+    text-transform: capitalize;
+}
+
+
+/* bannar part end here  */
+
+
+
+
+/* booking part start here  */
+
+/* booking left part start here  */
+.booking_part{
+    position: relative;
+    /* padding: 30px; */
+    margin-top: 50px;
+    height: 62vh;
+}
+.b_img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 50%;
+}
+.b_img img{
+
+}
+.text_booking{
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    height: 45%;
+    width: 70%;
+    border: 1px solid #dda796;
+    text-align: center;
+    text-transform: capitalize;
+}
+.text_booking h1{        
+    font-size: 40px;        
+    padding: 20px;        
+    margin-top: 5px;        
+    font-family: var(--headings-font,"Outfit"),serif;
+}
+/* booking left part end here  */
+
+/* booking right part start here  */
+.filter_frm{
+    position: relative;
+    margin-top: 50px;
+}
+.check{
+    display: flex;
+    padding: 0px;
+    border-bottom: 2px solid #000;
+    width: 45%;
+    margin: 10px;
+}
+.d_search{
+
+}
+.d_search h1{
+    font-size: 22px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-family: var(--small-text-font,"Jost"),serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0;
+    text-transform: none;
+    color: var(--small-text-color,#999);
+    white-space: nowrap;
+    pointer-events: none;
+}
+.d_search input{
+    border: none;
+    font-size: 18px;
+    margin-left: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+}
+.d_search input:focus{
+    outline: none;
+}
+.room{
+    display: flex;
+    padding: 0px;
+    border-bottom: 2px solid #000;
+    width: 100%;
+    margin: 10px;
+    margin: 0px;
+    justify-content: space-between;
+}
+.room label{
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-family: var(--small-text-font,"Jost"),serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0;
+    text-transform: none;
+    color: var(--small-text-color,#999);
+    white-space: nowrap;
+    pointer-events: none;
+}
+.room select {
+    border: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    font-size: 30px;
+}
+.room select option{
+    font-size: 18px;
+    font-family: var(--small-text-font,"Jost"),serif;
+}
+.room select:focus{
+    outline: none;
+}
+.s_button{    
+    display: flex;    
+    justify-content: center;    
+    margin-top: 30px;
+}
+.btn_search{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-height: 50px;
+    min-width: 200px;
+    padding: 0.75rem 1.25rem;
+    background-color: #151719;
+    transition: background-color .3s ease-in-out;
+    font-family: var(--small-text-font,"Jost"),serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.btn_search:hover{
+    background-color: #444547;
+
+}
+
+.btn_search i{
+    margin-left: 20px;
+    font-size: 33px;
+}
+.btn_search:hover{
+    color: #ffffff;
+}
+/* booking right part end here  */
+/* booking part end here  */
+
+
+
+
+/* details part start here  */
+.h_details{margin-top: 40px;margin-bottom: 40px;}
+.h_details h1{
+    max-width: 1000px;
+    font-family: var(--headings-font,"Outfit"),serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: var(--headings-color,#111);
+    text-shadow: none;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.h_details p{    
+    max-width: 800px;        
+    font-family: var(--text-font,"Jost"),serif;        
+    font-size: 19px;        
+    font-weight: 300;        
+    font-style: normal;        
+    line-height: 1.67;        
+    letter-spacing: 1px;        
+    color: var(--text-color,#555);        
+    text-shadow: none;
+}
+/* details part end here  */
+
+/* meeting point part start here  */
+.snd_bng{
+    /* background-image: url(../image/b_img.jpg); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    z-index: 0;
+}
+.snd_bng::after{
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: #0000005e;
+    z-index: -1;
+}
+.snd_bng img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    transform: scale(1, 2.5);    
+    transition: 1s all ease-in-out;
+    
+}
+.snd_bng:hover img{
+    transform: scale(1.1, 2.7);
+}
+.snd_bng h2{
+    color: #fff;
+    font-family: var(--headings-font,"Outfit"),serif;
+    text-transform: capitalize;
+    font-size: 29px;
+    margin-top: 30px;
+}
+.snd_bng h1{
+    font-family: var(--headings-font,"Outfit"),serif;
+    font-weight: 500;
+    font-size: 50px;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+.btn_meeting{
+    min-width: auto;
+    min-height: auto;
+    padding: 5px;
+    background-color: transparent;
+    text-decoration: underline;
+    transition: text-decoration-color .3s ease,-webkit-text-decoration-color .3s ease;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.btn_meeting i{        
+    font-size: 18px;        
+    margin-left: 10px;
+}
+.btn_meeting:hover{
+    transition: .4s all ease-in-out;
+    text-decoration: none;
+}
+
+/* meeting point part end here  */
+
+
+/* pool and tarace part start here  */
+.brc_img{
+    position: relative;
+}
+.brc_img img{
+    left: 0px;
+    z-index: -1;
+    transform: scale(1);
+    transition: .8s all ease-in-out;
+}
+.brc_img:hover img{
+    transform: scale(0.9);
+}
+.cont_box{
+    border: 1px solid #dda796;
+    position: absolute;
+    left: 8%;
+    bottom: -35%;
+    width: 450px;
+    height: 310px;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 25px;
+}
+.cont_box h1{
+    margin-top: 16%;
+    color: #000;
+    text-transform: capitalize;
+    font-family: var(--headings-font,"Outfit"),serif;
+}
+.cont_box p{
+    max-width: 1000px;
+    font-family: var(--headings-font,"Outfit"),serif;
+    font-size: 2.0625rem;
+    font-weight: 300;
+    font-style: italic;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: var(--headings-color,#111);
+    text-shadow: none;
+    margin-bottom: 2;
+}
+.cont_box button{    
+    color: var(--brand-color-1,#333);        
+    min-width: auto;        
+    min-height: auto;        
+    padding: 2px;        
+    background-color: transparent;        
+    text-decoration: underline;        
+    text-underline-offset: 0.2rem;        
+    text-decoration-thickness: 0.05rem;        
+    transition: text-decoration-color .3s ease,-webkit-text-decoration-color .3s ease;        
+    border: none;        
+    text-transform: capitalize;        
+    letter-spacing: 2px;
+}
+.cont_box button:hover{
+    transition: .4s all ease-in-out;
+    text-decoration: none;
+}
+/* pool and tarace part end here  */
+
+
+/* <!-- room and meeting part start here  --> */
+
+.r_cnt{
+    margin-top: 300px;
+    position: relative;
+}
+.r_cnt span{
+    left: 20%;
+    display: block;
+    width: 100%;
+    border: 1px solid #dda796;
+    height: 40%;
+    position: absolute;
+    width: 75%;
+    top: 15%;
+    z-index: 99;
+}
+.r_cnt span:hover img{    
+    transform: scale(1.1);
+}
+.r_cnt img{
+    width: 80%;
+    transition: .4s all ease-in-out;
+}
+.r_cnt img:hover{
+    transform: scale(1.1);
+}
+.cnt_part{
+    padding: 20px;
+}
+.cnt_part h1{
+    max-width: 1000px;
+    font-family: var(--headings-font,"Outfit"),serif;
+    font-size: 2.1875rem;
+    font-weight: 600;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: var(--headings-color,#111);
+    text-shadow: none;
+    display: block;
+    text-transform: capitalize;
+}
+
+.cnt_part P{
+    max-width: 800px;
+    font-family: var(--text-font,"Jost"),serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: 1px;
+    color: var(--text-color,#555);
+    text-shadow: none;
+}
+.cnt_part button{    
+    color: var(--brand-color-1,#333);        
+    min-width: auto;        
+    min-height: auto;        
+    padding: 2px;        
+    background-color: transparent;        
+    text-decoration: underline;        
+    border: navajowhite;        
+    text-transform: capitalize;        
+    letter-spacing: 2px;
+    transition: 4s all ease-in-out;
+}
+.cnt_part button:hover{
+    transition: .4s all ease-in-out;
+    text-decoration: none;
+}
+
+/* <!-- room and meeting part end  here  --> */
+
+
+/* footer part start here  */
+footer{
+    border-top: 1px solid #4e4b4b36;
+    margin-top: 30px;
+}
+.f_left{
+
+}
+.f_left h1{
+
+    font-size: 20px;
+
+    margin-top: 20px;
+
+    font-family: var(--text-font,"Jost"),serif;
+
+    font-weight: 400;
+}
+.f_left p{
+
+    font-family: var(--small-text-font,"Jost"),serif;
+
+    font-size: 1.2rem;
+
+    font-weight: 400;
+
+    line-height: 1.5;
+
+    letter-spacing: .5px;
+
+    color: var(--small-text-color,#999);
+
+    -ms-flex-negative: 0;
+
+    flex-shrink: 0;
+
+    margin-top: 10px;
+}
+.lnk{
+
+}
+.lnk a{
+    font-family: var(--small-text-font,"Jost"),serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: .5px;
+    color: var(--small-text-color,#999);
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    margin-top: 10px;
+}
+.social_lnk{
+
+}
+.social_lnk a{
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+}
+.social_lnk a i{
+    font-size: 25px;
+    color: #999999;
+    width: 50px;
+    height: 45px;
+    align-items: center;
+    border: 1px solid #999;
+    padding-top: 10px;
+    border-radius: 50%;
+}
+.social_lnk a:hover i{
+    transition: .4s all ease-in-out;
+    color: #000;
+    border-color: #000;
+}
+.f_right{
+    position: relative;
+    padding: 30px;
+}
+.f_right h1{
+    max-width: 800px;
+    font-family: var(--text-font,"Jost"),serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: var(--text-color,#555);
+    text-transform: uppercase;
+    text-shadow: none;
+    margin-bottom: 20px;
+}
+.f_right input{
+    border: none;
+    border-bottom: 1px solid #9c9b99;
+    width: 85%;
+    margin-top: 30px;
+    font-family: var(--small-text-font,"Jost"),serif;
+    color: #9c9b99;
+}
+.f_right button{    
+    width: 16px;        
+    height: 16px;        
+    fill: var(--brand-color-2,#dda796);        
+    mix-blend-mode: multiply;        
+    border: navajowhite;        
+    background: transparent;        
+    position: absolute;        
+    bottom: 40%;        
+    font-size: 25px;        
+    right: 22%;
+}
+.f_right input:focus{
+    outline: none;
+}
+/* footer part end here  */
+
+
+
+/* ============ room page css start here ========== */
+
+
+.page_title{
+
+text-align: center;
+}
+.page_title h1{
+    max-width: 1000px;
+    font-family: var(--headings-font,"Outfit"),serif;
+    font-size: 4.375rem;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: var(--headings-color,#111);
+    text-shadow: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-transform: capitalize;
+}
+.page_title p{
+    max-width: 1000px;
+    font-family: var(--text-font,"Jost"),serif;
+    font-size: 1.7rem;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    color: var(--text-color,#555);
+    text-shadow: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/* ==============room page css end here ================ */
+
+
+
+
+/* ================== corner room part start here ======================= */
+.room_details{
+
+}
+.room_details h1{
+    max-width: 1000px;
+    font-family: var(--headings-font,"Outfit"),serif;
+    font-size: 4.375rem;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: var(--headings-color,#111);
+    text-shadow: none;
+    text-transform: capitalize;
+}
+.room_details p{
+    max-width: 1000px;
+    font-family: var(--text-font,"Jost"),serif;
+    font-size: 1.7rem;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    color: var(--text-color,#555);
+    text-shadow: none;
+    display: block;
+}
+/* slider part start here  */
+.room_img{
+    padding: 20px;
+}
+.room_img img{
+
+}
+.owl-carousel .owl-dots{
+    display: flex;
+    justify-content: center;
+}
+.owl-carousel button.owl-dot {
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+    height: 8px;
+    width: 8px;
+    border: 1px solid #000;
+    margin-left: 10px;
+    display: block;
+    transform: rotate(45deg);
+}
+
+.owl-dots button.owl-dot.active {
+background-color: #000;
+}
+.owl-dots button.owl-dot:focus {
+outline: none;
+}
+
+.slider{
+    position: relative;
+
+}
+.slider .cont_box{
+    position: absolute;
+    z-index: 99;
+    border: 1px solid #dda796;
+    left: 8%;
+    bottom: -4%;
+    width: 450px;
+    height: 120px;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 25px;
+}
+
+/* slider part end here  */
+
+
+/* service part start here  */
+.service_img{
+    padding: 20px;
+    position: relative;
+}
+.service_img img{
+}
+.service_img span{
+    position: absolute;
+    display: block;
+    height: 28%;
+    z-index: 99;
+    left: 8%;
+    width: 85%;
+    bottom: -6%;
+    border: 1px solid #dda796;
+}
+.service_content{
+
+padding: 30px;
+}
+.service_content h1{
+    max-width: 800px;
+    font-family: var(--text-font,"Jost"),serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: var(--text-color,#555);
+    text-transform: uppercase;
+    text-shadow: none;
+    display: block;
+}
+.service_content p{
+    
+
+}
+.service_content  ul{
+
+}
+.service_content  ul li{
+    max-width: 800px;
+    font-family: var(--text-font,"Jost"),serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: 1px;
+    list-style: none;
+    list-style-position: inside;
+    color: var(--text-color,#555);
+    -webkit-padding-start: 0;
+    padding-inline-start: 0;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.service_content button{
+    border: none;
+    background: transparent;
+    font-size: 18px;
+    margin-left: 20px;
+    font-family: serif;
+    font-weight: 600;
+    transition: .4s all ease-in-out;
+    text-decoration: underline;
+}
+.service_content button:hover{
+    text-decoration: none;
+}
+.service_content button i{
+    margin-left: 10px;
+}
+/* service part end here  */
+
+/* =================== corner room part end her ====================== */
+
+
+/* ================== online check in page start here ===================== */
+
+.check_wlc{
+
+}
+.check_wlc h1{
+    max-width: 1000px;
+    font-family: var(--headings-font,"Outfit"),serif;
+    font-size: 4.375rem;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: var(--headings-color,#111);
+    text-shadow: none;
+    display: block;    
+    margin-top: 50px;
+}
+.check-in-online{
+
+border: 1px solid var(--complementary-color-1,#dda796);
+
+padding: 30px;
+}
+.check-in-online h1{margin-bottom: 30px;}
+.check-in-online p{
+    max-width: 800px;
+    font-family: var(--text-font,"Jost"),serif;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: 1px;
+    color: var(--text-color,#555);
+    text-shadow: none;
+}
+
+.check-online{
+    min-width: auto;
+    min-height: auto;
+    padding: 5px;
+    background-color: transparent;
+    text-decoration: underline;
+    transition: text-decoration-color .3s ease,-webkit-text-decoration-color .3s ease;
+    border: none;
+    color: #000;
+    font-size: 20px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    transition: .4s all ease-in-out;
+}
+.check-online:hover{
+    text-decoration: none;
+}
+
+/* ================== online check in page end  here ===================== */
+
+
+
+
+/* ========================= service page start here ========================= */
+
+.service_box{text-align: center;position: relative;}
+.service_box img{
+
+width: 80%;
+
+text-align: center;
+}
+.service_box h1{
+
+max-width: 1000px;
+
+font-family: var(--headings-font,"Outfit"),serif;
+
+font-size: 2.1875rem;
+
+font-weight: 600;
+
+font-style: normal;
+
+line-height: normal;
+
+letter-spacing: 1px;
+
+color: var(--headings-color,#111);
+
+text-shadow: none;
+
+display: block;
+
+text-transform: capitalize;
+
+margin: 10px 0px;
+}
+.service_box p{
+
+max-width: 800px;
+
+font-family: var(--text-font,"Jost"),serif;
+
+font-size: 1.6rem;
+
+font-weight: 300;
+
+font-style: normal;
+
+line-height: 1.67;
+
+letter-spacing: 1px;
+
+color: var(--text-color,#555);
+
+text-shadow: none;
+}
+.s_box{
+    
+border: 1px solid #cdb694;
+    
+height: 46%;
+    
+position: absolute;
+    
+left: 20%;
+    
+top: 16%;
+    
+width: 85%;
+}
+
+/* ========================= service page end  here ========================= */
+
+
+/* ================ location and contact page here ======================  */
+.map_here{
+    position: relative;
+}
+.map_here iframe{
+    width: 100%;
+}
+.map_content{
+    
+}
+.map_content h2{
+    max-width: 800px;
+    font-family: var(--text-font,"Jost"),serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: var(--text-color,#555);
+    text-transform: uppercase;
+    text-shadow: none;
+    display: block;
+}
+
+.map_content p{
+    max-width: 800px;
+    font-family: var(--text-font,"Jost"),serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: 1px;
+    color: var(--text-color,#555);
+    text-shadow: none;
+    margin-top: 30px;
+}
+.lo_box{
+        
+border: 1px solid #cdb694;
+        
+height: 25%;
+        
+position: absolute;
+        
+left: 5%;
+        
+width: 85%;
+        
+bottom: -15%;
+}
+.contact_form{
+
+padding: 50px;
+
+border: 1px solid #cdb694;
+}
+.contact_form select{
+    
+text-transform: capitalize;
+    
+width: 100%;
+    
+min-height: 40px;
+    
+padding: 5px 35px 5px 10px;
+    
+border-radius: 0;
+    
+border: 1px solid transparent;
+    
+border-bottom-color: rgba(17,17,17,.1);
+    
+font-size: 16px;
+    
+font-weight: 600;
+    
+letter-spacing: normal;
+    
+color: var(--text-color,#555);
+    
+background-color: hsla(0,0%,100%,.5);
+    
+-webkit-appearance: none;
+    
+-moz-appearance: none;
+    
+appearance: none;
+    
+outline: none;
+    
+-webkit-transition: border .3s ease-in-out;
+    
+transition: border .3s ease-in-out;
+}
+.contact_form select option{
+
+}
+.contact_form label{
+
+width: 100%;
+
+text-align: left;
+
+overflow: hidden;
+
+white-space: nowrap;
+
+text-overflow: ellipsis;
+
+display: block;
+
+margin-bottom: 2px;
+
+font-family: var(--small-text-font,"Jost"),serif;
+
+font-size: 1.1rem;
+
+font-weight: 500;
+
+letter-spacing: 1px;
+
+text-transform: none;
+
+color: var(--small-text-color,#999);
+
+text-transform: capitalize;
+}
+.contact_form input{
+    border: none;
+    border-bottom: 1px solid #bfb3b363;
+    border-radius: 0;
+}
+.contact_form input:focus{
+    outline: none;
+    box-shadow: none;
+    border-color: #bfb3b354 !important;
+}
+.contact_form textarea{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #999999a3;
+    margin-bottom: 30px;
+}
+.contact_form textarea:focus{
+    outline: none;
+}
+.contact_form input[type=submit]{
+
+    width: 100px;
+    position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-height: 50px;
+    min-width: 200px;
+    padding: 1rem 1.25rem;
+    border: 0;
+    border-radius: 0;
+    font-family: var(--small-text-font,"Jost"),serif;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: none;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    -webkit-transition: background-color .3s ease-in-out;
+    transition: background-color .3s ease-in-out;
+    color: #fff;
+    text-transform: capitalize;
+    background-color: var(--brand-color-1-80,#5c5c5c);
+    margin-top: 20px;
+}
+/* ================== location and contact ===================  */
+
+
+/* gallary page start here  */
+.gallary{
+
+}
+.gallary_box{
+
+}
+.gallary_box img{
+    
+    transform: scale(1);
+    transition: .8s all ease-in-out;
+}
+.gallary_box img:hover{
+    transform: scale(1.1);
+}
+
+/* gallary page end here  */
+
+
+
+/* ============= rooftop page start here =========== */
+.roof_top{
+
+}
+.roof_top h1{
+
+max-width: 1000px;
+
+font-family: var(--headings-font,"Outfit"),serif;
+
+font-size: 2.0625rem;
+
+font-weight: 300;
+
+font-style: italic;
+
+line-height: normal;
+
+letter-spacing: 1px;
+
+color: var(--headings-color,#111);
+
+text-shadow: none;
+}
+.roof_top p{
+
+max-width: 800px;
+
+font-family: var(--text-font,"Jost"),serif;
+
+font-size: 18px;
+
+font-weight: 300;
+
+font-style: normal;
+
+line-height: 1.67;
+
+letter-spacing: 1px;
+
+color: var(--text-color,#555);
+
+text-shadow: none;
+}
+.roof_top ul{
+    
+}
+.roof_top ul li{
+
+max-width: 800px;
+
+font-family: var(--text-font,"Jost"),serif;
+
+font-size: 18px;
+
+font-weight: 300;
+
+font-style: normal;
+
+line-height: 1.67;
+
+letter-spacing: 1px;
+
+list-style: none;
+
+list-style-position: inside;
+
+color: var(--text-color,#555);
+
+-webkit-padding-start: 0;
+
+padding-inline-start: 0;
+
+margin-bottom: 15px;
+}
+.rooftop_img{
+
+position: relative;
+
+height: 546px;
+
+padding: 20px;
+
+margin-top: 30px;
+}
+
+.rooftop_img img{
+
+top: 0px;
+
+position: absolute;
+
+height: 80%;
+
+width: 80%;
+
+bottom: 0px;
+
+right: 0px;
+}
+.box_roof{
+    
+position: absolute;
+    
+height: 80%;
+    
+width: 80%;
+    
+left: 0px;
+    
+bottom: 0px;
+    
+border: 1px solid #dda796;
+}
+.guest_content{
+
+padding: 40px;
+}
+.guest_content h2{
+
+max-width: 800px;
+
+font-family: var(--text-font,"Jost"),serif;
+
+font-size: 1.1rem;
+
+font-weight: 400;
+
+font-style: normal;
+
+line-height: normal;
+
+letter-spacing: 1px;
+
+color: var(--text-color,#555);
+
+text-transform: uppercase;
+
+text-shadow: none;
+
+display: block;
+}
+.guest_content h1{
+
+max-width: 1000px;
+
+font-family: var(--headings-font,"Outfit"),serif;
+
+font-size: 2.5rem;
+
+font-weight: 600;
+
+font-style: normal;
+
+line-height: normal;
+
+letter-spacing: 1px;
+
+color: var(--headings-color,#111);
+
+text-shadow: none;
+
+display: block;
+}
+.guest_content p{
+
+max-width: 800px;
+
+font-family: var(--text-font,"Jost"),serif;
+
+font-size: 18px;
+
+font-weight: 300;
+
+font-style: normal;
+
+line-height: 1.67;
+
+letter-spacing: 1px;
+
+color: var(--text-color,#555);
+
+text-shadow: none;
+}
+.guest_content p h1{
+
+}
+.guest_content ul{
+
+list-style: none;
+
+font-size: 18px;
+}
+.guest_content ul li{
+    
+}
+/* ============ rooftop page end here ===============  */
+
+
+.language{
+    border: 1px solid #dda796;
+    padding: 3PX;
+    height: 47px;
+    width: 170px;
+    margin-right: 20px;
+}
+.language select{
+    font-size: 12px;
+    border: none !important;
+    background: transparent;
+    font-family: auto;
+    font-weight: 300;
+}
+.language select:focus{
+    outline: none;
+}
+.language ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.language ul li{
+    
+    list-style: none;
+}

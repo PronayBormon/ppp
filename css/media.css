@@ -1,0 +1,371 @@
+
+
+
+/* ================== online check in page start here ================ */
+@media(max-width:768px){
+    .check_wlc h1 {
+        font-size: 50px;
+    }
+}
+@media(max-width:425px){
+    .check_wlc h1 {
+        font-size: 35px;
+    }
+}
+@media(max-width:375px){
+    .check_wlc h1 {
+        font-size: 30px;
+    }
+}
+/* ================== online check in page end here ================ */
+
+
+
+/* ================== location and contact page start here ================ */
+
+
+@media(max-width:768px){
+    .contact_form select {
+        padding: 0;
+        font-size: 10px;
+    }
+}
+@media(max-width:425px){
+    .contact_form select {
+        padding: 0;
+        font-size: 10px;
+    }
+    .map_content {
+        margin-top: 78px;
+    }
+    .contact_form {
+        padding: 10px;
+    }
+    .contact_form label {
+        font-size: 12px;
+    }
+    .contact_form input[type=submit] {
+        min-width: 100px;
+    font-size: 16px;
+    }
+}
+@media(max-width:375px){
+    .contact_form select {
+        padding: 0;
+        font-size: 10px;
+    }
+    .map_content {
+        margin-top: 78px;
+    }
+    .contact_form {
+        padding: 10px;
+    }
+    .contact_form label {
+        font-size: 12px;
+    }
+    .contact_form input[type=submit] {
+        min-width: 100px;
+    font-size: 16px;
+    }
+}
+@media(max-width:320px){
+    .contact_form select {
+        padding: 0;
+        font-size: 10px;
+    }
+    .map_content {
+        margin-top: 78px;
+    }
+    .contact_form {
+        padding: 10px;
+    }
+    .contact_form label {
+        font-size: 12px;
+    }
+    .contact_form input[type=submit] {
+        min-width: 100px;
+    font-size: 16px;
+    }
+}
+/* ================== location and contact page end here ================ */
+
+
+
+
+
+/* ================== room page start here ================ */
+@media(max-width:320px){
+    .page_title p {
+        font-size: 18px;
+    }
+}
+/* ================== room page end here ================ */
+
+/* ================== service page start here ================ */
+
+@media(max-width:320px){
+    .s_box {
+        width: 80%;
+    }
+    .service_box h1 {
+        font-size: 25px;
+    }
+
+}
+/* ================= service page end here =============== */
+
+
+
+
+
+/* ============ corner room (all room ) page start her e=============== */
+
+@media(max-width:768px){
+    .room_details h1 {
+        font-size: 40px;
+    }
+    .slider .cont_box {
+        width: 83%;
+    }
+    .room_details p {
+        font-size: 20px;
+    }
+    .page_title h1 {
+        font-size: 40px;
+    }
+}
+
+@media(max-width:425px){
+    .room_details h1 {
+        font-size: 30px;
+    }
+    .room_details p {
+        font-size: 18px;
+    }
+    .slider .cont_box {
+        width: 83%;
+        height: 95px;
+    }
+    .service_content ul li {
+        font-size: 18px;
+    }
+    .page_title h1 {
+        font-size: 35px;
+    }
+}
+@media(max-width:375px){
+    
+    .room_details h1 {
+        font-size: 30px;
+    }
+    .room_details p {
+        font-size: 18px;
+    }
+    .slider .cont_box {
+        width: 83%;
+        height: 95px;
+    }
+    .service_content ul li {
+        font-size: 18px;
+    }
+    .page_title h1 {
+        font-size: 35px;
+    }
+}
+@media(max-width:320px){
+    .nav_dot {
+        width: 100%;
+    }
+    .room_details h1 {
+        font-size: 30px;
+    }
+    .room_details p {
+        font-size: 18px;
+    }
+    .slider .cont_box {
+        width: 245px;
+        height: 95px;
+    }
+    .service_content ul li {
+        font-size: 18px;
+    }
+    .page_title h1 {
+        font-size: 35px;
+    }
+}
+/* ============== coerner room (all room ) page end here =========================  */
+
+
+
+
+ /* ============ index page start here ================= */
+@media(max-width:960px){
+    .bannar h1 {
+        bottom: 0%;
+        left: 5%;
+        font-size: 45px;
+    }
+    .cnt_part h1 {
+        font-size: 30px;
+    }
+    .r_cnt span {
+        height: 45%;
+    }
+    .cont_box {
+        width: 285px;
+    }
+    .cont_box p {
+        font-size: 18px;
+    }
+    .cont_box h1 {
+        margin-top: 27%;
+    }
+    .nav_dot li a {
+        font-size: 15px;
+    }
+}
+
+@media(max-width:768px){
+    .check {
+        width: 40%;
+    }
+    .d_search h1 {
+        font-size: 18px;
+    }
+    .d_search input {
+        font-size: 10px;
+        margin-left: 2px;
+        
+    }
+    .cont_box {
+        width: 275px;
+        height: 250px;
+    }
+    .cont_box p {
+        font-size: 16px;        
+    }
+    .cont_box h1 {
+        font-size: 30px;
+    }
+    .cnt_part P {
+        font-size: 16px;
+    }
+    .cnt_part h1 {
+        font-size: 22px;
+    }
+    .snd_bng h1 {
+        font-size: 30px;
+    }
+
+
+}
+@media(max-width:720px){
+    .bannar h1 {
+        font-size: 40px;
+    }
+    .brc_img {
+        margin-top: 200px;
+    }
+    .snd_bng h1 {
+        font-size: 30px;
+    }
+
+}
+
+@media(max-width:540px){
+    .bannar h1 {
+        font-size: 40px;
+    }
+    .brc_img {
+        margin-top: 200px;
+    }
+    .snd_bng h1 {
+        font-size: 30px;
+    }
+
+}
+
+@media(max-width:425px){
+
+    .cont_box p {
+        font-size: 16px;
+    }   
+    .cont_box {
+        width: 330px;
+        height: 230px;
+        bottom: -116px;
+    }
+    .brc_img {
+        margin-top: 150px;
+    }
+    .nav_dot {
+        width: 100%;
+    }
+}
+
+@media(max-width:375px){
+    .nav_dot {
+        width: 100%;
+    }
+    .bannar h1 {
+        bottom: 26% !important;
+        left: 10% !important;
+        font-size: 20px !important;
+    }
+    .cnt_part P {
+        font-size: 16px;
+    }
+    .cnt_part h1 {
+        font-size: 25px;
+    }
+    .cont_box {
+        width: 250px;
+        height: 211px;
+        bottom: -75px;
+        padding: 14px;
+    }
+    .bannar {
+        height: auto;
+    }
+    .check {
+        width: 40%;
+    }
+    .d_search h1 {
+        font-size: 12px;
+    }
+    .d_search input {
+        font-size: 8px;
+    }
+    .text_booking {
+        height: 100%;
+    }
+    .booking_part {
+        height: 150px;
+    }
+    .room label {
+        font-size: 18px;
+    }
+    .btn_search {
+        min-height: 30px;
+        min-width: 150px;
+    }
+    .snd_bng h1 {
+        font-size: 30px;
+    }
+    .cont_box p {
+        font-size: 16px;
+    }
+    .brc_img {
+        margin-top: 45px;
+    }
+    .r_cnt {
+        margin-top: 106px;
+    }
+    .social_lnk a i {
+        width: 40px;
+        height: 40px;
+    }
+
+}
+
+/* =================== index page start here =================== */
